@@ -1,10 +1,11 @@
 import './assets/css/App.css';
-import Peliculas from './components/Peliculas';
+// import Peliculas from './components/Peliculas';
 import Header from './components/Header';
 import Slider from './components/Slider';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
-import SeccionPruebas from './components/SeccionPruebas';
+// import SeccionPruebas from './components/SeccionPruebas';
+import Router from './Router';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <div className='center'>
         <section id="content">
           <section className='componentes'>
-            <Peliculas />
-            <SeccionPruebas/>
+            <Router/>
+            {/* <Peliculas /> */}
+            {/* <SeccionPruebas/> */}
           </section>
         </section>
         <Sidebar />
